@@ -46,6 +46,7 @@
 5. git remote rm origin
 6. rm -rf .git*
 7. git fetch origin branchname
+8. git fetch --prune *#Synchronize the remote with the local*
 
 ## Standard git
 - git add filename
