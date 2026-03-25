@@ -78,6 +78,7 @@
 - git branch -vv
 - git branch --set-upstream-to=origin/branchname branchname
 - git push -u origin branchname
+- git checkout old-branch-name --> git branch -m new-branch-name
 
 ## Large files
 - cd dirname
