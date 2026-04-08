@@ -46,9 +46,6 @@
 5. git remote rm origin
 6. rm -rf .git*
 7. git fetch origin branchname
-8. git fetch --prune *#Synchronize the local with the remote*
-9. git fetch --all --prune *#Synchronize all branches with the remote*
-10. git pull --ff-only *#Validate that current branch is synchronized with remote*
 
 ## Standard git
 - git add filename
@@ -102,6 +99,9 @@
 - git branch -vv
 - git push origin branchname
 - git pull
+- git fetch --prune *#Synchronize the local with the remote*
+- git fetch --all --prune *#Synchronize all branches with the remote*
+- git pull --ff-only *#Validate that current branch is synchronized with remote*
 ## 3. Check dev and master are on the same commit
 - git checkou branch1
 - git log branch2..branch1
