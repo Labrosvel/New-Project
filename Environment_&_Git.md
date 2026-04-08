@@ -103,7 +103,7 @@
 - git fetch --all --prune *#Synchronize all branches with the remote*
 - git pull --ff-only *#Validate that current branch is synchronized with remote*
 ## 3. Check dev and master are on the same commit
-- git checkou branch1
+- git checkout branch1
 - git log branch2..branch1
 - git checkout branch2
 - git log branch1..branch2
